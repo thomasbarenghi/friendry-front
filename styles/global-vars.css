@@ -1,0 +1,202 @@
+/* PC */
+
+@media (min-width: 1025px) {
+  :root {
+    --padding-hero-t: max(90px, 6.38vw);
+    --margin-hero-t: min(-90px, -6.38vw);
+    --padding-header-l-t1: max(80px, 5.88vw);
+    --padding-header-r-t1: max(80px, 5.88vw);
+    --padding-header-t-t1: max(30px, 2.20vw);
+    --padding-header-b-t1: max(30px, 2.20vw);
+    --padding-l-t1: max(40px, 2.94vw);
+    --padding-l-t2: max(80px, 5.88vw);
+    --padding-l-t3: max(136px, 10vw);
+    --padding-l-t4: max(60px, 4.41vw);
+    --padding-r-t1: max(40px, 2.94vw);
+    --padding-r-t2: max(80px, 5.88vw);
+    --padding-r-t3: max(136px, 10vw);
+    --padding-r-t4: max(60px, 4.41vw);
+    --padding-t-t1: max(40px, 2.94vw);
+    --padding-t-t2: max(60px, 4.41vw);
+    --padding-t-t3: max(80px, 5.88vw);
+    --padding-t-t4: max(120px, 8.82vw);
+    --padding-b-t1: max(40px, 2.94vw);
+    --padding-b-t2: max(60px, 4.41vw);
+    --padding-b-t3: max(80px, 5.88vw);
+    --padding-b-t4: max(120px, 8.82vw);
+    --padding-h-t-t1: max(200px, 14.70vw);
+    --padding-h-b-t1: max(200px, 14.70vw);
+  }
+}
+
+@media (min-width: 1025px) {
+  :root {
+    --margin-t1-body: max(8px, 0.58vw);
+    --margin-t2-body: max(8px, 0.58vw);
+    --margin-t3-body: max(8px, 0.58vw);
+    --margin-t-toptext: 0px;
+    --margin-t-smalltext: 0px;
+    --margin-body-btn: max(24px, 1.76vw);
+  }
+}
+
+@media (min-width: 1025px) {
+  :root {
+    --gutter-t1: 40px;
+    --gutter-t2: 40px;
+    --gutter-t3: 60px;
+    --gutter80: 80px;
+    --gap-titulo-contenido: max(40px, 2.94vw);
+    --gap-row-t1: max(40px, 2.94vw);
+    --gap-row-t2: max(80px, 5.88vw);
+    --gap-col-t1: max(80px, 5.88vw);
+    --gap-items-row-t1: max(40px, 2.94vw);
+    --gap-items-col-t1: max(40px, 2.94vw);
+    --gap-items-row-t2: max(60px, 4.41vw);
+    --gap-items-col-t2: max(60px, 4.41vw);
+    --gap-items-list-t1: max(16px, 1.17vw);
+    --gap-icon-t1: max(24px, 1.76vw);
+    --aspect-img-t1: 1/1;
+    --aspect-img-t2: 3/4;
+    --gap-items-60-40-60: 60px;
+    --gap-secRow-80-60: 80px;
+    --auto-grid-min-size-t1: 414px;
+    --auto-grid-min-size-t2: 177px;
+    --gapt1: 60px;
+    --gapt2: 40px;
+  }
+}
+
+/* Tablet */
+
+@media (min-width: 767.99px) and (max-width: 1024.99px) {
+  :root {
+    --padding-hero-t: 90px;
+    --margin-hero-t: 0px;
+    --padding-header-l-t1: 60px;
+    --padding-header-r-t1: 60px;
+    --padding-header-t-t1: 30px;
+    --padding-header-b-t1: 30px;
+    --padding-l-t1: 60px;
+    --padding-l-t2: 60px;
+    --padding-l-t3: 60px;
+    --padding-l-t4: 60px;
+    --padding-r-t1: 60px;
+    --padding-r-t2: 60px;
+    --padding-r-t3: 60px;
+    --padding-r-t4: 60px;
+    --padding-t-t1: 40px;
+    --padding-t-t2: 60px;
+    --padding-t-t3: 80px;
+    --padding-t-t4: 120px;
+    --padding-b-t1: 40px;
+    --padding-b-t2: 60px;
+    --padding-b-t3: 80px;
+    --padding-b-t4: 120px;
+    --padding-h-t-t1: 150px;
+    --padding-h-b-t1: 150px;
+  }
+}
+
+@media (min-width: 767.99px) and (max-width: 1024.99px) {
+  :root {
+    --margin-t1-body: 8px;
+    --margin-t2-body: 8px;
+    --margin-t3-body: 8px;
+    --margin-t-toptext: 0px;
+    --margin-t-smalltext: 0px;
+    --margin-body-btn: 24px;
+    /*--gap-items-60-40-20: 40px;*/
+  }
+}
+
+@media (min-width: 767.99px) and (max-width: 1024.99px) {
+  :root {
+    --gutter-t1: 20px;
+    --gutter-t3: 40px;
+    --gutter-t2: 20px;
+    --gutter80: 80px;
+    --gap-titulo-contenido: 40px;
+    --gap-row-t1: 40px;
+    --gap-row-t2: 80px;
+    --gap-col-t1: 40px;
+    --gap-items-row-t1: 40px;
+    --gap-items-col-t1: 20px;
+    --gap-items-list-t1: 16px;
+    --gap-icon-t1: 24px;
+    --aspect-img-t1: 1/1;
+    --aspect-img-t2: 3/4;
+    --gap-items-60-40-60: 40px;
+    --gap-secRow-80-60: 80px;
+    --auto-grid-min-size-t1: 324px;
+    --auto-grid-min-size-t2: 304px;
+    --colWidth-scroll-t1: 35vw;
+    --gapt1: 40px;
+    --gapt2: 40px;
+  }
+}
+
+/* Celular */
+
+@media (max-width: 767.98px) {
+  :root {
+    --padding-hero-t: 90px;
+    --margin-hero-t: 0px;
+    --padding-header-l-t1: clamp(30px, 7.28vw, 60px);
+    --padding-header-r-t1: clamp(30px, 7.28vw, 60px);
+    --padding-header-t-t1: 0px;
+    --padding-header-b-t1: 0px;
+    --padding-l-t1: clamp(30px, 7.28vw, 60px);
+    --padding-l-t2: clamp(30px, 7.28vw, 60px);
+    --padding-l-t3: clamp(30px, 7.28vw, 60px);
+    --padding-r-t1: clamp(30px, 7.28vw, 60px);
+    --padding-r-t2: clamp(30px, 7.28vw, 60px);
+    --padding-r-t3: clamp(30px, 7.28vw, 60px);
+    --padding-t-t1: 40px;
+    --padding-t-t2: 60px;
+    --padding-t-t3: 80px;
+    --padding-t-t4: 120px;
+    --padding-b-t1: 40px;
+    --padding-b-t2: 60px;
+    --padding-b-t3: 80px;
+    --padding-b-t4: 120px;
+    --padding-h-t-t1: 0px;
+    --padding-h-b-t1: 0px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  :root {
+    --margin-t1-body: 8px;
+    --margin-t2-body: 8px;
+    --margin-t3-body: 8px;
+    --margin-t-toptext: 0px;
+    --margin-t-smalltext: 0px;
+    --margin-body-btn: 24px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  :root {
+    --gap-titulo-contenido: 40px;
+    --gap-row-t1: 40px;
+    --gap-row-t2: 80px;
+    --gap-col-t1: 32px;
+    --gap-items-row-t1: 40px;
+    --gap-items-col-t1: 40px;
+    --gap-items-list-t1: 16px;
+    --gap-icon-t1: 24px;
+    --gutter-t1: 30px;
+    --gutter-t3: 60px;
+    --gutter-t2: 20px;
+    --gutter80: 80px;
+    --aspect-img-t1: 1/1;
+    --aspect-img-t2: 3/4;
+    --gap-items-60-40-60: 60px;
+    --gap-secRow-80-60: 60px;
+    --colWidth-scroll-t1: 60vw;
+    --gapt1: 60px;
+    --gapt2: 30px;
+  }
+}
+

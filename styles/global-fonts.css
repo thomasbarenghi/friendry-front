@@ -1,0 +1,114 @@
+@media (min-width: 1025px) {
+  :root {
+    --font-display1-font-size: max(90px, 6.61vw);
+    --font-display1-line-height: 135%;
+    --font-titulo1-font-family: "Outfit", sans-serif;
+    --font-titulo1-font-size: max(36px, 2.64vw);
+    --font-titulo1-line-height: 135%;
+    --font-titulo1-font-family: "Outfit", sans-serif;
+    --font-titulo2-font-size: max(30px, 2.20vw);
+    --font-titulo2-line-height: 135%;
+    --font-titulo2-font-family: "Outfit", sans-serif;
+    --font-titulo3-font-size: max(22px, 1.61vw);
+    --font-titulo3-line-height: 135%;
+    --font-titulo3-font-family: "Outfit", sans-serif;
+    /*Subtitulo: 9b22302;*/
+    --font-subtitulo-font-size: max(18px, 1.32vw);
+    --font-subtitulo-line-height: 135%;
+    --font-subtitulo-font-family: "Outfit", sans-serif;
+    /*Body: c76837b;*/
+    --font-body-font-size: max(16px, 1.17vw);
+    --font-body-line-height: 165%;
+    --font-body-font-family: "Outfit", sans-serif;
+    --font-bodyHigh-font-size: max(16px, 1.17vw);
+    --font-bodyHigh-line-height: 165%;
+    --font-bodyHigh-font-family: "Outfit", sans-serif;
+    /*Boton: 73bfeae;*/
+    --font-boton-font-size: max(16px, 1.17vw);
+    --font-boton-line-height: 135%;
+    --font-boton-font-family: "Outfit", sans-serif;
+    --font-smallText-font-size: max(14px, 1.02vw);
+    --font-smallText-line-height: 135%;
+    --font-smallText-font-family: "Outfit", sans-serif;
+    --font-topText-font-size: max(16px, 1.17vw);
+    --font-topText-line-height: 135%;
+    --font-topText-font-family: "Outfit", sans-serif;
+  }
+}
+
+@media (min-width: 767.99px) and (max-width: 1024.99px) {
+  :root {
+    --font-display1-font-size: max(90px, 6.61vw);
+    --font-display1-line-height: 135%;
+    --font-display1-font-family: "Outfit", sans-serif;
+    --font-titulo1-font-size: max(36px, 4.68vw);
+    --font-titulo1-line-height: 135%;
+    --font-titulo1-font-family: "Outfit", sans-serif;
+    --font-titulo2-font-size: max(30px, 3.90vw);
+    --font-titulo2-line-height: 135%;
+    --font-titulo2-font-family: "Outfit", sans-serif;
+    --font-titulo3-font-size: max(22px, 2.86vw);
+    --font-titulo3-line-height: 135%;
+    --font-titulo3-font-family: "Outfit", sans-serif;
+    /*Subtitulo: 9b22302;*/
+    --font-subtitulo-font-size: max(18px, 2.34vw);
+    --font-subtitulo-line-height: 135%;
+    --font-subtitulo-font-family: "Outfit", sans-serif;
+    /*Body: c76837b;*/
+    --font-body-font-size: clamp(16px, 2.08vw, 20px);
+    --font-body-line-height: 165%;
+    --font-body-font-family: "Outfit", sans-serif;
+    --font-bodyHigh-font-size: max(16px, 2.08vw);
+    --font-bodyHigh-line-height: 165%;
+    --font-bodyHigh-font-family: "Outfit", sans-serif;
+    /*Boton: 73bfeae;*/
+    --font-boton-font-size: max(16px, 2.08vw);
+    --font-boton-line-height: 100%;
+    --font-boton-font-family: "Outfit", sans-serif;
+    --font-smallText-font-size: max(14px, 1.82vw);
+    --font-smallText-line-height: 135%;
+    --font-smallText-font-family: "Outfit", sans-serif;
+    --font-topText-font-size: max(16px, 2.08vw);
+    --font-topText-line-height: 135%;
+    --font-topText-font-family: "Outfit", sans-serif;
+  }
+}
+
+@media (max-width: 767.98px) {
+  :root {
+    --font-display1-font-size: max(90px, 6.61vw);
+    --font-display1-line-height: 135%;
+    --font-display1-font-family: "Outfit", sans-serif;
+    --font-titulo1-font-size: clamp(36px, 8.73vw, 46px);
+    --font-titulo1-line-height: 135%;
+    --font-titulo1-font-family: "Outfit", sans-serif;
+    --font-titulo2-font-size: clamp(30px, 7.28vw, 40px);
+    --font-titulo2-line-height: 135%;
+    --font-titulo2-font-family: "Outfit", sans-serif;
+    --font-titulo3-font-size: clamp(22px, 5.33vw, 32px);
+    --font-titulo3-line-height: 135%;
+    --font-titulo3-font-family: "Outfit", sans-serif;
+    /*Subtitulo: 9b22302;*/
+    --font-subtitulo-font-size: clamp(18px, 4.36vw, 22px);
+    --font-subtitulo-line-height: 135%;
+    --font-subtitulo-font-family: "Outfit", sans-serif;
+    /*Body: c76837b;*/
+    --font-body-font-size: clamp(16px, 3.88vw, 20px);
+    --font-body-line-height: 165%;
+    --font-body-font-family: "Outfit", sans-serif;
+    --font-bodyHigh-font-size: clamp(16px, 3.88vw, 20px);
+    --font-bodyHigh-line-height: 165%;
+    --font-bodyHigh-font-family: "Outfit", sans-serif;
+    /*Boton: 73bfeae;*/
+    --font-boton-font-size: clamp(16px, 3.88vw, 20px);
+    --font-boton-line-height: 100%;
+    --font-boton-font-family: "Outfit", sans-serif;
+    --font-smallText-font-size: clamp(14px, 3.39vw, 18px);
+    --font-smallText-line-height: 135%;
+    --font-smallText-font-family: "Outfit", sans-serif;
+    --font-topText-font-size: clamp(16px, 3.88vw, 20px);
+    --font-topText-line-height: 135%;
+    --font-topText-font-family: "Outfit", sans-serif;
+  }
+}
+
