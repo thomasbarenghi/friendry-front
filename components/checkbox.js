@@ -1,31 +1,19 @@
-const CodeFilter = ({ options, handleChange }) => {
-    const [selectedOptions, setSelectedOptions] = useState(new Set());
-  
-    const handleOptionChange = (e) => {
-      const { value } = e.target;
-      if (selectedOptions.has(value)) {
-        selectedOptions.delete(value);
-      } else {
-        selectedOptions.add(value);
-      }
-      setSelectedOptions(new Set(selectedOptions));
-      handleChange(Array.from(selectedOptions));
-    }
-  
+const Checkbox = ({ codes, selectedCodes, handleChange }) => {
     return (
       <div>
-        {options.map(option => (
-          <label key={option}>
+        {codes.map((code) => (
+          <label key={code}>
             <input
               type="checkbox"
-              value={option}
-              checked={selectedOptions.has(option)}
-              onChange={handleOptionChange}
+              value={code}
+              checked={selectedCodes.includes(code)}
+              onChange={handleChange}
             />
-            {option}
+            {code}
           </label>
         ))}
       </div>
     );
-  };
-  
+  }
+
+  export default Checkbox;
