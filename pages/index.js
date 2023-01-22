@@ -16,8 +16,14 @@ const Home = () => {
     getPosts()
       .then(data => {
         setPosts(data);
-        const codes = data.map(post => post.attributes.cohorte.data.attributes.codigo);
-        setAvailableCodes([...new Set(codes)]);
+        console.log(data)
+        let communities = [];
+        data.forEach(post => {
+          post.attributes.comunidades.data.forEach(comunity => {
+            communities.push(comunity.attributes.titulo);
+          });
+        });
+        setAvailableCodes([...new Set(communities)]);
       });
   }, []);
 
@@ -34,9 +40,8 @@ const Home = () => {
     }
   };
 
-  const filteredPosts = !searchTerm ? posts : posts.filter(post => post.attributes.Nombre_completo.toLowerCase().includes(searchTerm.toLowerCase()));
-  const filteredByCode = !selectedCodes.length ? filteredPosts : filteredPosts.filter(post => selectedCodes.includes(post.attributes.cohorte.data.attributes.codigo));
-
+  const filteredPosts = !searchTerm ? posts : posts.filter(post => post.attributes.nombreCompleto.toLowerCase().includes(searchTerm.toLowerCase()));
+  const filteredByCode = !selectedCodes.length ? filteredPosts : filteredPosts.filter(post => post.attributes.comunidades.data.filter(comunity => selectedCodes.includes(comunity.attributes.titulo)).length > 0);
 
   return (
     <>
@@ -63,7 +68,6 @@ const Home = () => {
         >
           <div />
           <div id="contenedorComponentes" style={{ display: "flex", flexDirection: "column", gap: 20 }}>
-
             {filteredByCode.map(post => (
               <Post key={post.id} post={post} />
             ))}

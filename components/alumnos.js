@@ -16,7 +16,8 @@ const Post = ({ post }) => {
         style={{ fontWeight: 400 }}
         className="subtitulo-regular color-neutral900 margin-b-0"
       >
-        <span style={{ fontWeight: 600 }}>{post.attributes.Nombre_completo}</span> FT35A
+        <span style={{ fontWeight: 600 }}>{post.attributes.nombreCompleto}
+        </span> hola
       </h1>
       <p className="body-regular color-body margin-b-0">{post.attributes.urlLinkedin}</p>
       
