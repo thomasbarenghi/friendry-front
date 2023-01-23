@@ -2,6 +2,8 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import { serverUrl } from '../api/config';
 import Cookies from 'js-cookie';
+import Link from 'next/link';
+import ShowComunidades from "../../components/comunidad/showComunidades"
 
 function MyCommunitiesPage() {
     const [communities, setCommunities] = useState([]);
@@ -12,7 +14,7 @@ function MyCommunitiesPage() {
         const userId = Cookies.get("User-AlumnoId");
 
         // Hacer una solicitud GET a la API para obtener las comunidades asociadas al usuario
-        axios.get(`${serverUrl}/api/comunidades?filters[alumnos][id][$eq]=29&populate=*`,
+        axios.get(`${serverUrl}/api/comunidades?filters[alumnos][id][$eq]=${userId}&populate=*`,
             {
                 headers: {
                     'Authorization': `Bearer ${Cookies.get("authToken")}`,
@@ -45,14 +47,7 @@ function MyCommunitiesPage() {
             ) : (
                 <div>
                     <h1>Mis comunidades</h1>
-                    {communities.map(community => (
-                        <div key={community.id}>
-                            <h2>{community.attributes.titulo}</h2>
-                            <p>{community.attributes.descripcion}</p>
-                            <p>Miembros {community.attributes.alumnos.data.length}</p>
-                          
-                        </div>
-                    ))}
+    <ShowComunidades communities={communities}/>
                 </div>
             )}
         </div>
