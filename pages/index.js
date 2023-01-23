@@ -2,7 +2,7 @@ import Head from 'next/head';
 import { getPosts } from '../pages/api/alumnos';
 import React, { useState, useEffect } from 'react';
 import Post from '../components/alumnos';
-import Header from "../components/header"
+import Header from "../components//masters/header"
 import Checkbox from '@/components/checkbox';
 import SearchBar from '@/components/SearchBar';
 
